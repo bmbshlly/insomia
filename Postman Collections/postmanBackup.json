@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "query customer",
-			"_postman_id": "71f03702-db4e-4ba4-8527-f83bc7346982",
+			"id": "71f03702-db4e-4ba4-8527-f83bc7346982",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
 				"disabledSystemHeaders": {
@@ -54,7 +54,7 @@
 		},
 		{
 			"name": "query a bundle/service",
-			"_postman_id": "7dc26e15-655f-4b63-ba2a-2fd5b6cfe260",
+			"id": "7dc26e15-655f-4b63-ba2a-2fd5b6cfe260",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -92,7 +92,7 @@
 		},
 		{
 			"name": "query tax",
-			"_postman_id": "1ee5c7c0-d18b-488e-8632-d8b404ed2e71",
+			"id": "1ee5c7c0-d18b-488e-8632-d8b404ed2e71",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
 				"disabledSystemHeaders": {
@@ -139,7 +139,7 @@
 		},
 		{
 			"name": "query",
-			"_postman_id": "47cc0a47-2cb2-4524-8513-183f8e32dc0b",
+			"id": "47cc0a47-2cb2-4524-8513-183f8e32dc0b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
 				"disabledSystemHeaders": {
@@ -186,7 +186,7 @@
 		},
 		{
 			"name": "query invoice",
-			"_postman_id": "6bde6b07-fd8e-485c-a146-126bba571051",
+			"id": "6bde6b07-fd8e-485c-a146-126bba571051",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
 				"disabledSystemHeaders": {
@@ -233,7 +233,7 @@
 		},
 		{
 			"name": "query attachment",
-			"_postman_id": "b04fb7b0-72cb-4164-8306-c488a33d7db1",
+			"id": "b04fb7b0-72cb-4164-8306-c488a33d7db1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
 				"disabledSystemHeaders": {
@@ -280,7 +280,7 @@
 		},
 		{
 			"name": "invoice",
-			"_postman_id": "c171fee5-d1fb-4a58-8334-f0547af00c82",
+			"id": "c171fee5-d1fb-4a58-8334-f0547af00c82",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -303,10 +303,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"Line\": [\n        {\n            \n            \"Description\": \"i am desp\",\n            \"DetailType\": \"SalesItemLineDetail\",\n            \"Amount\": 100.0,\n            \"SalesItemLineDetail\": {\n                \"ItemRef\": {\n                    \"name\": \"Product Subscription Fees - Logistics Platform\",\n                    \"value\": \"10\"\n                },\n                \"TaxCodeRef\": {\n                    \"name\": \"18.0% GST\",\n                    \"value\": \"14\"\n                }\n            }\n        },\n        {\n            \"Amount\": 100,\n            \"DetailType\": \"TDSLineDetail\",\n            \"TDSLineDetail\": {\n                \"TDSSectionTypeId\": 20\n            }\n        }\n        \n    ],\n    \"DocNumber\": \"test234234\",\n    \"CustomerRef\": {\n        \"value\": \"6\",\n        \"name\": \"aryan\"\n    },\n    \"CustomerMemo\": {\n        \"value\": \"i am memeo\"\n    },\n    \"DocNumber\": \"\",\n    \"BillEmail\": {\n        \"Address\": \"tey2@gmal.com\"\n    },\n    \"SalesTermRef\": {\n        \"value\": \"2\"\n    },\n    \"TransactionLocationType\": \"02\",\n    \"CustomField\": [\n        {\n            \"DefinitionId\": \"1\",\n            \"Name\": \"PO Number\",\n            \"Type\": \"StringType\",\n            \"StringValue\": \"okay\"\n        },\n        {\n            \"DefinitionId\": \"2\",\n            \"Name\": \"Subs Start Date\",\n            \"Type\": \"StringType\",\n            \"StringValue\": \"okay\"\n        },\n        {\n            \"DefinitionId\": \"3\",\n            \"Name\": \"Subs End Date\",\n            \"Type\": \"StringType\",\n            \"StringValue\": \"okay\"\n        }\n    ]\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\n    \"Line\": [\n        {\n            \n            \"Description\": \"i am desp\",\n            \"DetailType\": \"SalesItemLineDetail\",\n            \"Amount\": 100.0,\n            \"SalesItemLineDetail\": {\n                \"ItemRef\": {\n                    \"name\": \"Product Subscription Fees - Logistics Platform\",\n                    \"value\": \"10\"\n                },\n                \"TaxCodeRef\": {\n                    \"name\": \"18.0% GST\",\n                    \"value\": \"14\"\n                }\n            }\n        },\n        {\n            \"Amount\": 100,\n            \"DetailType\": \"TDSLineDetail\",\n            \"TDSLineDetail\": {\n                \"TDSSectionTypeId\": 20\n            }\n        }\n        \n    ],\n    \"DocNumber\": \"test234234\",\n    \"CustomerRef\": {\n        \"value\": \"6\",\n        \"name\": \"aryan\"\n    },\n    \"CustomerMemo\": {\n        \"value\": \"i am memeo\"\n    },\n    \"DocNumber\": \"\",\n    \"BillEmail\": {\n        \"Address\": \"tey2@gmal.com\"\n    },\n    \"SalesTermRef\": {\n        \"value\": \"2\"\n    },\n    \"TransactionLocationType\": \"02\",\n    \"CustomField\": [\n        {\n            \"DefinitionId\": \"1\",\n            \"Name\": \"PO Number\",\n            \"Type\": \"StringType\",\n            \"StringValue\": \"okay\"\n        },\n        {\n            \"DefinitionId\": \"2\",\n            \"Name\": \"Subs Start Date\",\n            \"Type\": \"StringType\",\n            \"StringValue\": \"okay\"\n        },\n        {\n            \"DefinitionId\": \"3\",\n            \"Name\": \"Subs End Date\",\n            \"Type\": \"StringType\",\n            \"StringValue\": \"okay\"\n        }\n    ]\n}"
 				},
 				"url": {
 					"raw": "https://sandbox-quickbooks.api.intuit.com/v3/company/{{realm_id}}/invoice?minorversion=62",
@@ -335,7 +332,7 @@
 		},
 		{
 			"name": "invoice void",
-			"_postman_id": "96fc18ff-0fd5-4aac-8229-f104bb44589b",
+			"id": "96fc18ff-0fd5-4aac-8229-f104bb44589b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -358,10 +355,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"Id\": \"173\",\n    \"SyncToken\": \"1\"\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\n    \"Id\": \"173\",\n    \"SyncToken\": \"1\"\n}"
 				},
 				"url": {
 					"raw": "https://sandbox-quickbooks.api.intuit.com/v3/company/{{realm_id}}/invoice?operation=void",
@@ -390,7 +384,7 @@
 		},
 		{
 			"name": "upload file to invoice",
-			"_postman_id": "a3da2b90-47ab-496d-8860-38d5cef2d4b3",
+			"id": "a3da2b90-47ab-496d-8860-38d5cef2d4b3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -420,10 +414,7 @@
 							"type": "file",
 							"src": "b2VkkDYFV/BTP-slides.pdf"
 						}
-					],
-					"options": {
-						"formdata": {}
-					}
+					]
 				},
 				"url": "https://sandbox-quickbooks.api.intuit.com/v3/company/{{realm_id}}/upload"
 			},
@@ -431,7 +422,7 @@
 		},
 		{
 			"name": "attachfile to invoice",
-			"_postman_id": "2a9b579f-7ca1-4a40-97b9-5b85e9ec3c40",
+			"id": "2a9b579f-7ca1-4a40-97b9-5b85e9ec3c40",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -507,14 +498,14 @@
 		},
 		{
 			"name": "New Request",
-			"_postman_id": "57cc91f8-9789-44ef-8e9d-cf61bc5088c6",
+			"id": "57cc91f8-9789-44ef-8e9d-cf61bc5088c6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": "https://hms-website-v2-qa-git-ss-1228-100mslive.vercel.app/api/emailProvider/gmail.com"
 			},
 			"response": []
 		}
