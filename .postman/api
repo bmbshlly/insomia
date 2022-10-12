@@ -4,14 +4,12 @@ id = e633ca04-0c85-46b8-9012-7b45908c8a1d
 
 [relations.collections]
 rootDirectory = .insomnia
-files[] = {"id":"15419153-ea0e18ff-61d8-4ca4-8359-6ee2cdd24afb","path":"api calls.json","metaData":{}}
+files[] = {"id":"15419153-ea0e18ff-61d8-4ca4-8359-6ee2cdd24afb","path":"Collections.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = Postman Collections
-files[] = {"path":"New.json","metaData":{}}
-files[] = {"path":"postmanBackup.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
